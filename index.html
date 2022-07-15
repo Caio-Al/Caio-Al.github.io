@@ -8,22 +8,44 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https: //fonts.googleapis.com/css2? família= Noto+Sans+JP:wght@100;300;400;500;700;900 & display=swap" rel="stylesheet">
 
     <style>
-
     
       body {
-        font-family: Montserrat, sans-serif;
-        background-image: url(https://i.pinimg.com/originals/7d/85/ef/7d85ef4184b3915f012dee95ae97c897.gif); background-repeat: repeat-y;
+        font-family: Noto Sans JP, sans-serif;
+        background-image: url(https://i.pinimg.com/originals/7d/85/ef/7d85ef4184b3915f012dee95ae97c897.gif); 
         color: rgb(255, 255, 255);
-    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
       }
+        a{
+            text-decoration: none;
+            color: rgb(255, 178, 127);
+        }
+    .picture {
+         border-radius: 50%;
+         border: 2px solid rgb(243, 131, 169) ;
+        }
+        
+    .button {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        background-color: #A9A9A9;
+        padding: 10px 30px;
+        text-decoration: none;
+        border-radius: 8px;
+    }
+
+      
     </style>
 </head>
 <body>
 
-    <h1> Usuario: Caio Alves Nascimento </h1>
+    <h1>Caio Alves Nascimento</h1>
 
 <ul>
 <li><a href="#sobre">Um pouco sobre mim</a></li>
@@ -31,13 +53,13 @@
 </ul>
 
     <img id="perfil" src="FotoDeperfil.png" alt="Foto de perfil"
-width="275px"
+width="75px" class="picture">
 
 <br>
 
 <h2 id="sobre"> Sobre mim</h2>
 
-<p><strong>Estudante de programção da trybe</strong> | nascido em salvador-BAA |<em>Atualmente morando em Gunambi-BA</em></p>
+<p><strong>Estudante de programção da trybe</strong> | nascido em salvador-BA |<em>Atualmente morando em Gunambi-BA</em></p>
 
 <h3 id="habilidades">Habilidades que me orgulho </h3>
 
@@ -48,11 +70,11 @@ width="275px"
    <li>Empatia</li>
 </ul>
 
-<a href="https://mangalivre.net/" target="_blank">Site mais usado</a>
+<a href="https://mangalivre.net/" target="_blank" class="button">Site mais usado</a>
 
-<br>
+<br><br>
 
-<a href="#perfil">Foto De Perfil</a>
+<a href="#perfil" class="button">Foto De Perfil</a>
 
 </body>
 </html>
