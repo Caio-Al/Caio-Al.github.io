@@ -1,80 +1,54 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfolio</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2? família= Noto+Sans+JP:wght@100;300;400;500;700;900 & display=swap" rel="stylesheet">
-
-    <style>
-    
-      body {
-        font-family: Noto Sans JP, sans-serif;
-        background-image: url(https://i.pinimg.com/originals/7d/85/ef/7d85ef4184b3915f012dee95ae97c897.gif); 
-        color: rgb(255, 255, 255);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-      }
-        a{
-            text-decoration: none;
-            color: rgb(255, 178, 127);
-        }
-    .picture {
-         border-radius: 50%;
-         border: 2px solid rgb(243, 131, 169) ;
-        }
-        
-    .button {
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        line-height: 20px;
-        font-weight: 700;
-        background-color: #A9A9A9;
-        padding: 10px 30px;
-        text-decoration: none;
-        border-radius: 8px;
-    }
-
-      
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <h1>Caio Alves Nascimento</h1>
+    <section id="sobre" class="sobre-espaco">
+        <div class="sobre-container">
+            <div class="perfil">
+                <img src="Fotoperfil.jpg" alt="Foto de perfil">
+            </div>
+            <div class="principal">
+                <h1>Bem-vindo ao Meu Portfólio</h1>
+                <p>Sou um desenvolvedor web com foco em criar experiências digitais inovadoras. Tenho experiência em diversas tecnologias e amo desafios.</p>
+            </div>
+        </div>
+    </section>
 
-<ul>
-<li><a href="#sobre">Um pouco sobre mim</a></li>
-<li><a href="#habilidades">Habilidades principais</a></li>
-</ul>
+    <section id="Projetos" class="projetos-selecao">
+        <h2>Projetos Recentes</h2>
+        <div class="projeto">
+            <h3>Projeto 1</h3>
+            <p>Descrição do Projeto 1.</p>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>Descrição do Projeto 2.</p>
+        </div>
+    </section>
 
-    <img id="perfil" src="FotoDeperfil.png" alt="Foto de perfil"
-width="75px" class="picture">
+    <section id="contato" class="contato-selecao">
+        <h2>Contato</h2>
+        <p>Me envie uma mensagem: <a href="email">caionascimento60@gmail.com.com</a></p>
+    </section>
 
-<br>
-
-<h2 id="sobre"> Sobre mim</h2>
-
-<p><strong>Estudante de programção da trybe</strong> | nascido em salvador-BA |<em>Atualmente morando em Gunambi-BA</em></p>
-
-<h3 id="habilidades">Habilidades que me orgulho </h3>
-
-<ul>
-   <li>Colaborativo</li>
-   <li>Companheirismo</li>
-   <li>Comprometimento</li>
-   <li>Empatia</li>
-</ul>
-
-<a href="https://mangalivre.net/" target="_blank" class="button">Site mais usado</a>
-
-<br><br>
-
-<a href="#perfil" class="button">Foto De Perfil</a>
-
+    <footer>
+        <p>&copy; 2024 Caio Alves Nascimento. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
